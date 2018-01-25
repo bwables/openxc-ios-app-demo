@@ -25,6 +25,7 @@
 		7DB633EA1F9F247100519A8B /* openXCiOSFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E79901C31E3F5AFD00FB0579 /* openXCiOSFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		7DCC147820063C8B00DF5794 /* ProtocolBuffers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D4692D51FDFE5210022DF98 /* ProtocolBuffers.framework */; };
 		7DCC147920063C8B00DF5794 /* ProtocolBuffers.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7D4692D51FDFE5210022DF98 /* ProtocolBuffers.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7DEB3F692011F42600D94510 /* ModalSettingViewControllerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DEB3F682011F42600D94510 /* ModalSettingViewControllerTest.swift */; };
 		7DF339E6200F148E00935D96 /* openXCiOSFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DF339E4200F148E00935D96 /* openXCiOSFramework.framework */; };
 		E75EE6931E110ED400B2AE3B /* openXCenablerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75EE6921E110ED400B2AE3B /* openXCenablerTests.swift */; };
 		E78190A81ECC5B9000DE3B18 /* ProtocolBuffers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7B85B511ECC373500A3E5CB /* ProtocolBuffers.framework */; };
@@ -96,6 +97,7 @@
 		7D17BF5620105CBB00F176D8 /* CommandViewControllerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandViewControllerTest.swift; sourceTree = "<group>"; };
 		7D17BF5A20107F5A00F176D8 /* StatusViewControllerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusViewControllerTest.swift; sourceTree = "<group>"; };
 		7D4692D51FDFE5210022DF98 /* ProtocolBuffers.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ProtocolBuffers.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DEB3F682011F42600D94510 /* ModalSettingViewControllerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalSettingViewControllerTest.swift; sourceTree = "<group>"; };
 		7DF339E4200F148E00935D96 /* openXCiOSFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = openXCiOSFramework.framework; path = ../../../Desktop/openXCiOSFramework.framework; sourceTree = "<group>"; };
 		E75EE6901E110ED400B2AE3B /* openXCenablerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = openXCenablerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E75EE6921E110ED400B2AE3B /* openXCenablerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = openXCenablerTests.swift; sourceTree = "<group>"; };
@@ -175,6 +177,7 @@
 				E75EE6921E110ED400B2AE3B /* openXCenablerTests.swift */,
 				7D17BF5620105CBB00F176D8 /* CommandViewControllerTest.swift */,
 				7D17BF5A20107F5A00F176D8 /* StatusViewControllerTest.swift */,
+				7DEB3F682011F42600D94510 /* ModalSettingViewControllerTest.swift */,
 				E75EE6941E110ED400B2AE3B /* Info.plist */,
 			);
 			path = openXCenablerTests;
@@ -347,6 +350,7 @@
 			files = (
 				7D17BF5B20107F5A00F176D8 /* StatusViewControllerTest.swift in Sources */,
 				7D17BF5720105CBB00F176D8 /* CommandViewControllerTest.swift in Sources */,
+				7DEB3F692011F42600D94510 /* ModalSettingViewControllerTest.swift in Sources */,
 				E79380711EB20201000EF3FF /* CommandsViewController.swift in Sources */,
 				E75EE6931E110ED400B2AE3B /* openXCenablerTests.swift in Sources */,
 			);

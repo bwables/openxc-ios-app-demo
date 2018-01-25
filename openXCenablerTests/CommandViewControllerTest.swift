@@ -37,7 +37,8 @@ class CommandViewControllerTest: XCTestCase {
         // Use XCTAssert and related functions to verify your tests produce the correct results.
     }
     func testResponse() {
-       //let value = commandVC?.handle_cmd_response(_ rsp: response)
+        
+       //commandVC?.handle_cmd_response(_ rsp: response)
         
         let value =  response["version"]
         let value1 = response1["device_id"]
